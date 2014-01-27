@@ -1,0 +1,8 @@
+C:\Users\Sorcer\Desktop\Навчання\KPZ\MSSQL\Sudoku\Sudoku\bin\Debug\Sudoku.exe
+C:\Users\Sorcer\Desktop\Навчання\KPZ\MSSQL\Sudoku\Sudoku\bin\Debug\Sudoku.pdb
+C:\Users\Sorcer\Desktop\Навчання\KPZ\MSSQL\Sudoku\Sudoku\obj\x86\Debug\Sudoku.MainForm.resources
+C:\Users\Sorcer\Desktop\Навчання\KPZ\MSSQL\Sudoku\Sudoku\obj\x86\Debug\Sudoku.Properties.Resources.resources
+C:\Users\Sorcer\Desktop\Навчання\KPZ\MSSQL\Sudoku\Sudoku\obj\x86\Debug\Sudoku.csproj.GenerateResource.Cache
+C:\Users\Sorcer\Desktop\Навчання\KPZ\MSSQL\Sudoku\Sudoku\obj\x86\Debug\Sudoku.exe
+C:\Users\Sorcer\Desktop\Навчання\KPZ\MSSQL\Sudoku\Sudoku\obj\x86\Debug\Sudoku.pdb
+C:\Users\Sorcer\Desktop\Навчання\KPZ\MSSQL\Sudoku\Sudoku\obj\x86\Debug\Sudoku.csprojResolveAssemblyReference.cache
