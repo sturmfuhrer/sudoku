@@ -33,6 +33,9 @@
             this.новаГраToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.складністьToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.вихідToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.легкаToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.середняToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.складнаToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             ((System.ComponentModel.ISupportInitialize)(this.MaindataGridView)).BeginInit();
             this.MainMenu.SuspendLayout();
             this.SuspendLayout();
@@ -76,6 +79,10 @@
             // 
             // складністьToolStripMenuItem
             // 
+            this.складністьToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.легкаToolStripMenuItem,
+            this.середняToolStripMenuItem,
+            this.складнаToolStripMenuItem});
             this.складністьToolStripMenuItem.Name = "складністьToolStripMenuItem";
             this.складністьToolStripMenuItem.Size = new System.Drawing.Size(79, 19);
             this.складністьToolStripMenuItem.Text = "Складність";
@@ -85,6 +92,25 @@
             this.вихідToolStripMenuItem.Name = "вихідToolStripMenuItem";
             this.вихідToolStripMenuItem.Size = new System.Drawing.Size(47, 19);
             this.вихідToolStripMenuItem.Text = "Вихід";
+            this.вихідToolStripMenuItem.Click += new System.EventHandler(this.вихідToolStripMenuItem_Click);
+            // 
+            // легкаToolStripMenuItem
+            // 
+            this.легкаToolStripMenuItem.Name = "легкаToolStripMenuItem";
+            this.легкаToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.легкаToolStripMenuItem.Text = "Легка";
+            // 
+            // середняToolStripMenuItem
+            // 
+            this.середняToolStripMenuItem.Name = "середняToolStripMenuItem";
+            this.середняToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.середняToolStripMenuItem.Text = "Середня";
+            // 
+            // складнаToolStripMenuItem
+            // 
+            this.складнаToolStripMenuItem.Name = "складнаToolStripMenuItem";
+            this.складнаToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.складнаToolStripMenuItem.Text = "Складна";
             // 
             // MainForm
             // 
@@ -116,6 +142,9 @@
         private System.Windows.Forms.ToolStripMenuItem новаГраToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem складністьToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem вихідToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem легкаToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem середняToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem складнаToolStripMenuItem;
     }
 }
 

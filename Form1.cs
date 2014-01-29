@@ -31,5 +31,10 @@ namespace Sudoku
             MaindataGridView.Rows[5].DividerHeight = 3;
         }
 
+        private void вихідToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
+        }
+
     }
 }
