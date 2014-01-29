@@ -16,4 +16,13 @@ public class SaveLoad
         fs.Close();
     }
 
+    void load()
+    {
+        FileStream fs =  new FileStream("save.dat", FileMode.Open);
+        BinaryReader br = new BinaryReader(fs);
+        for (int i=0; i<81; i++)
+            mas[i]=br.ReadInt32();
+        fs.Close();
+    }
+
 }
